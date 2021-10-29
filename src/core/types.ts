@@ -1,9 +1,9 @@
 /*
- * @Descripttion: 
+ * @Descripttion:
  * @Author: KuuBee
  * @Date: 2021-10-28 16:31:54
  * @LastEditors: KuuBee
- * @LastEditTime: 2021-10-28 16:31:55
+ * @LastEditTime: 2021-10-29 14:14:24
  */
 
 type EleType =
@@ -22,7 +22,7 @@ type EleType =
   | "code"
   | "table"
   | "link";
-type InlineEleType = "p" | "img" | "link" | "code";
+type InlineEleType = "p" | "img" | "link" | "code" | "em" | "strong";
 type BlockEleType =
   | "h1"
   | "h2"
